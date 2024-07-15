@@ -1,0 +1,9 @@
+greeting = "Hi"
+print(greeting)
+Name = "yawar"
+name = input("whats your name")
+if name == Name:
+    print(greeting + name)
+else :
+    print("Go Away")
+

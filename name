@@ -1,0 +1,13 @@
+NAME = "Yawar"
+name = input ("Enter your name:")
+
+if name == NAME:
+
+    print ("Apka name Yawar he. ")
+    print ("kia hal he apka?")
+
+else:
+    print ("kon he ap yawar to ni he?")
+    print ("nikl jao yaha se BC.")
+
+

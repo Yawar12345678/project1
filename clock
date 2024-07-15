@@ -1,0 +1,16 @@
+class Clock:
+    def __init__(self, value):
+        self._value = value
+    def __str__(self):
+        display_value = self._value % 12
+        if display_value == 0 :
+            display_value = 12
+        return f"{display_value}"
+
+def main():
+    c1 = Clock(7)    #7am
+    c2 = Clock(19)   #7pm
+    c3 = Clock(0)    #12am
+    c4 = Clock(12)   #12pm
+    if __name__ == "__main__":
+        main()
